@@ -138,7 +138,7 @@ function mostra_risultato(){
     }
     //mi copio la lista per non modificarla
     let lista_risultato = [...lista_da_calcolare]
-    //1 perche' quello che mi rimarra' dopo tutte le operazioni e' un elemento, ovvero il risultato
+    // 1 perche' quello che mi rimarra' dopo tutte le operazioni e' un elemento, ovvero il risultato
     while (lista_risultato.length > 1) {
         //do priorita' alle moltiplicazioni e divisioni
         if (lista_risultato.includes('*') || lista_risultato.includes('/') ){
