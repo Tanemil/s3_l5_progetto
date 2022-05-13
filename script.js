@@ -130,10 +130,10 @@ come risultato  */
 function mostra_risultato(){
     //l'ultimo numero non lo prende nessuno quindi lo fa risultato
     if (var_numero.includes('.')){
-        lista_da_calcolare.push(parseInt(var_numero))
+        lista_da_calcolare.push(parseFloat(var_numero))
         var_numero = ''
     }else{
-        lista_da_calcolare.push(parseFloat(var_numero))
+        lista_da_calcolare.push(parseInt(var_numero))
         var_numero = ''
     }
     //mi copio la lista per non modificarla
