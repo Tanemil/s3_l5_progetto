@@ -128,7 +128,7 @@ function cancella(){
 e poi le somme e sottrazioni, lasciando un unico valore nella lista che verra' passato al display
 come risultato  */
 function mostra_risultato(){
-    //l'ultimo numero non lo prende nessuno quindi lo fa risultato
+    //l'ultimo numero non lo prende nessuna funzione quindi lo fa risultato
     if (var_numero.includes('.')){
         lista_da_calcolare.push(parseFloat(var_numero))
         var_numero = ''
